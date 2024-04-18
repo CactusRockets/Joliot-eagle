@@ -440,7 +440,7 @@ design rules under a new name.</description>
 </autorouter>
 <elements>
 <element name="U$1" library="CRD" library_urn="urn:adsk.eagle:library:39051337" package="BMP390_FOOTPRINT" package3d_urn="urn:adsk.eagle:package:40965124/5" value="BMP390V1" x="55.88" y="13.97" smashed="yes"/>
-<element name="U$10" library="CRD" library_urn="urn:adsk.eagle:library:39051337" package="PRESSION_BUTTON_FOOTPRINT" package3d_urn="urn:adsk.eagle:package:43483815/3" value="PRESSION_BUTTON" x="10.16" y="43.18" smashed="yes" rot="R90"/>
+<element name="U$10" library="CRD" library_urn="urn:adsk.eagle:library:39051337" package="PRESSION_BUTTON_FOOTPRINT" package3d_urn="urn:adsk.eagle:package:43483815/3" value="PRESSION_BUTTON" x="7.62" y="53.34" smashed="yes" rot="R90"/>
 <element name="U$2" library="CRD" library_urn="urn:adsk.eagle:library:39051337" package="E22-400T30D_FOOTPRINT" package3d_urn="urn:adsk.eagle:package:40965099/4" value="E22-400T30D" x="85.09" y="21.59" smashed="yes" rot="R90"/>
 <element name="U$3" library="CRD" library_urn="urn:adsk.eagle:library:39051337" package="GPS_MODULE_FOOTPRINT" package3d_urn="urn:adsk.eagle:package:39608400/5" value="GPS_MODULE" x="55.88" y="43.18" smashed="yes"/>
 <element name="U$4" library="CRD" library_urn="urn:adsk.eagle:library:39051337" package="JST2.54X2P_FOOTPRINT" package3d_urn="urn:adsk.eagle:package:39191967/2" value="JST2.54X2P" x="6.35" y="34.29" smashed="yes" rot="R90"/>

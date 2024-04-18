@@ -73,9 +73,9 @@
 </layers>
 <board>
 <plain>
-<wire x1="0" y1="0" x2="143.871" y2="-0.254" width="0" layer="20"/>
-<wire x1="143.871" y1="-0.254" x2="143.744" y2="70.917" width="0" layer="20"/>
-<wire x1="143.744" y1="70.917" x2="0" y2="70.79" width="0" layer="20"/>
+<wire x1="0" y1="0" x2="145.141" y2="-0.254" width="0" layer="20"/>
+<wire x1="145.141" y1="-0.254" x2="145.014" y2="70.917" width="0" layer="20"/>
+<wire x1="145.014" y1="70.917" x2="0" y2="70.79" width="0" layer="20"/>
 <wire x1="0" y1="70.79" x2="0" y2="0" width="0" layer="20"/>
 <dimension x1="0" y1="-3.81" x2="145.161" y2="-3.81" x3="72.5805" y3="-7.62" textsize="1.778" layer="27"/>
 <dimension x1="-3.81" y1="0" x2="-3.81" y2="71.12" x3="-7.62" y3="35.56" textsize="1.778" layer="27" dtype="horizontal"/>
