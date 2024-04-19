@@ -542,6 +542,16 @@ design rules under a new name.</description>
 <contactref element="U$4" pad="1"/>
 <wire x1="26.67" y1="16.51" x2="139.573" y2="50.292" width="0" layer="19" extent="1-1"/>
 </signal>
+<signal name="N$3">
+<contactref element="U$9" pad="VCC"/>
+<contactref element="U$11" pad="15"/>
+<wire x1="36.8055" y1="32.9955" x2="96.53" y2="31.32" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$4">
+<contactref element="U$9" pad="GND"/>
+<contactref element="U$11" pad="12"/>
+<wire x1="39.4055" y1="32.9955" x2="104.15" y2="31.32" width="0" layer="19" extent="1-1"/>
+</signal>
 </signals>
 <mfgpreviewcolors>
 <mfgpreviewcolor name="soldermaskcolor" color="0xC8008000"/>

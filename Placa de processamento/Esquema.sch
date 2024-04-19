@@ -746,6 +746,25 @@
 <wire x1="81.28" y1="40.64" x2="81.28" y2="71.12" width="0.1524" layer="91"/>
 </segment>
 </net>
+<net name="N$3" class="0">
+<segment>
+<pinref part="U$9" gate="G$1" pin="VCC"/>
+<wire x1="101.6" y1="-12.7" x2="101.6" y2="-33.02" width="0.1524" layer="91"/>
+<wire x1="101.6" y1="-33.02" x2="104.14" y2="-33.02" width="0.1524" layer="91"/>
+<pinref part="U$11" gate="G$1" pin="IO23"/>
+<wire x1="101.6" y1="-33.02" x2="78.74" y2="-33.02" width="0.1524" layer="91"/>
+<wire x1="78.74" y1="-33.02" x2="78.74" y2="-30.48" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$4" class="0">
+<segment>
+<pinref part="U$9" gate="G$1" pin="GND"/>
+<wire x1="106.68" y1="-12.7" x2="106.68" y2="-38.1" width="0.1524" layer="91"/>
+<wire x1="106.68" y1="-38.1" x2="71.12" y2="-38.1" width="0.1524" layer="91"/>
+<pinref part="U$11" gate="G$1" pin="IO3"/>
+<wire x1="71.12" y1="-38.1" x2="71.12" y2="-30.48" width="0.1524" layer="91"/>
+</segment>
+</net>
 </nets>
 </sheet>
 </sheets>

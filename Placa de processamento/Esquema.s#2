@@ -723,8 +723,8 @@
 <instance part="U$10" gate="G$1" x="15.24" y="17.78" smashed="yes" rot="R180"/>
 <instance part="U$8" gate="G$1" x="-2.54" y="40.64" smashed="yes"/>
 <instance part="U$9" gate="G$1" x="119.38" y="5.08" smashed="yes"/>
-<instance part="U$11" gate="G$1" x="58.42" y="-7.62" smashed="yes">
-<attribute name="NAME" x="31.75" y="-2.54" size="1.27" layer="95" rot="R90"/>
+<instance part="U$11" gate="G$1" x="66.04" y="-12.7" smashed="yes">
+<attribute name="NAME" x="39.37" y="-7.62" size="1.27" layer="95" rot="R90"/>
 </instance>
 </instances>
 <busses>
