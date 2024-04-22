@@ -842,7 +842,7 @@ DIN A3, landscape with location and doc. field</description>
 <text x="71.12" y="71.12" size="1.778" layer="91">35</text>
 <text x="88.9" y="71.12" size="1.778" layer="91">3.3v</text>
 <text x="30.48" y="68.58" size="1.778" layer="91">gnd</text>
-<text x="5.08" y="106.68" size="6.4516" layer="95">PLACA DE PROCESSAMENTO - JOILIOT</text>
+<text x="5.08" y="106.68" size="6.4516" layer="95">PLACA DE PROCESSAMENTO - JOLIOT</text>
 </plain>
 <instances>
 <instance part="U$1" gate="G$1" x="144.78" y="60.96" smashed="yes"/>

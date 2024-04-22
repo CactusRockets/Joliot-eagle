@@ -795,12 +795,11 @@ design rules under a new name.</description>
 </signal>
 <signal name="V_BATTERY">
 <contactref element="U$7" pad="1"/>
-<wire x1="23.59" y1="13.97" x2="25.4" y2="13.97" width="1.5" layer="16"/>
-<contactref element="U$10" pad="PL3"/>
-<contactref element="U$10" pad="PR3"/>
-<wire x1="19.247" y1="18.313" x2="23.59" y2="13.97" width="1.5" layer="16"/>
-<wire x1="7.318" y1="18.313" x2="9.818" y2="18.313" width="1.5" layer="16"/>
-<wire x1="9.818" y1="18.313" x2="19.247" y2="18.313" width="1.5" layer="16"/>
+<contactref element="U$10" pad="PR1"/>
+<contactref element="U$10" pad="PL1"/>
+<wire x1="7.318" y1="24.313" x2="9.818" y2="24.313" width="1.5" layer="16"/>
+<wire x1="25.4" y1="13.97" x2="22.37" y2="17" width="1.5" layer="16"/>
+<wire x1="9.818" y1="24.313" x2="22.37" y2="17" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$19">
 <contactref element="U$6" pad="1"/>
