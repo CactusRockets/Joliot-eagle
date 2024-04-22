@@ -3,10 +3,10 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="no"/>
+<setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mm"/>
+<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.1" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -197,8 +197,8 @@
 <hole x="74.549" y="45.339" drill="3"/>
 <hole x="0" y="3.048" drill="3"/>
 <hole x="74.676" y="2.921" drill="3"/>
-<dimension x1="-2.54" y1="-5.08" x2="77.47" y2="-5.08" x3="37.465" y3="-7.62" textsize="1.778" layer="20"/>
-<dimension x1="80.01" y1="46.99" x2="80.01" y2="0" x3="83.82" y3="23.495" textsize="1.778" layer="1"/>
+<dimension x1="-2.54" y1="-5.08" x2="77.47" y2="-5.08" x3="37.465" y3="-7.62" textsize="1.778" layer="25"/>
+<dimension x1="80.01" y1="46.99" x2="80.01" y2="0" x3="83.82" y3="23.495" textsize="1.778" layer="25"/>
 </plain>
 <libraries>
 <library name="led" urn="urn:adsk.eagle:library:259">
@@ -1497,6 +1497,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <classes>
 <class number="0" name="default" width="0" drill="0">
 </class>
+<class number="1" name="gnd" width="0" drill="0">
+</class>
 </classes>
 <designrules name="default *">
 <description language="de">&lt;b&gt;EAGLE Design Rules&lt;/b&gt;
@@ -1762,14 +1764,14 @@ design rules under a new name.</description>
 <attribute name="SPICEPREFIX" value="R" x="-29.083" y="8.001" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="33.782" y="29.3116" size="1.27" layer="27" ratio="10" rot="R270"/>
 </element>
-<element name="SP" library="buzzer" library_urn="urn:adsk.eagle:library:113" package="AL11P" package3d_urn="urn:adsk.eagle:package:5308/1" value="AL11P" x="36.957" y="39.37" smashed="yes" rot="MR180">
-<attribute name="MF" value="" x="91.567" y="45.72" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="MPN" value="" x="91.567" y="45.72" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="33.782" y="33.02" size="0.6096" layer="26" ratio="10" rot="MR180"/>
-<attribute name="OC_FARNELL" value="unknown" x="91.567" y="45.72" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="OC_NEWARK" value="unknown" x="91.567" y="45.72" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="POPULARITY" value="3" x="91.567" y="45.72" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="VALUE" x="38.227" y="42.545" size="1.27" layer="28" ratio="10" rot="MR180"/>
+<element name="SP" library="buzzer" library_urn="urn:adsk.eagle:library:113" package="AL11P" package3d_urn="urn:adsk.eagle:package:5308/1" value="AL11P" x="36.83" y="39.497" smashed="yes" rot="MR90">
+<attribute name="MF" value="" x="30.48" y="94.107" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MPN" value="" x="30.48" y="94.107" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="NAME" x="43.18" y="36.322" size="0.6096" layer="26" ratio="10" rot="MR90"/>
+<attribute name="OC_FARNELL" value="unknown" x="30.48" y="94.107" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="OC_NEWARK" value="unknown" x="30.48" y="94.107" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="POPULARITY" value="3" x="30.48" y="94.107" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="VALUE" x="33.655" y="40.767" size="1.27" layer="28" ratio="10" rot="MR90"/>
 </element>
 <element name="S1-S2" library="SparkFun-Connectors" package="1X02_2.54_SCREWTERM" value="" x="13.97" y="7.62" smashed="yes">
 <attribute name="NAME" x="12.7" y="2.159" size="1.016" layer="25" font="vector" ratio="20"/>
@@ -1807,15 +1809,13 @@ design rules under a new name.</description>
 <contactref element="SP" pad="+"/>
 <wire x1="30.48" y1="13.97" x2="30.48" y2="11.43" width="1" layer="16"/>
 <wire x1="30.48" y1="11.43" x2="26.67" y2="7.62" width="1" layer="16"/>
-<via x="38.878" y="39.005" extent="1-16" drill="0.35"/>
-<wire x1="46.863" y1="41.91" x2="39.243" y2="39.37" width="1" layer="16"/>
+<wire x1="46.863" y1="41.91" x2="36.83" y2="41.783" width="1" layer="16"/>
 <wire x1="46.863" y1="41.91" x2="71.12" y2="41.91" width="1" layer="16"/>
 <wire x1="74.152" y1="7.7137875" x2="68.9782125" y2="2.54" width="1" layer="16"/>
 <wire x1="68.9782125" y1="2.54" x2="31.75" y2="2.54" width="1" layer="16"/>
 <wire x1="71.12" y1="41.91" x2="74.152" y2="38.878" width="1" layer="16"/>
 <wire x1="74.152" y1="38.878" x2="74.152" y2="7.7137875" width="1" layer="16"/>
 <wire x1="31.75" y1="2.54" x2="26.67" y2="7.62" width="1" layer="16"/>
-<wire x1="39.243" y1="39.37" x2="38.878" y2="39.005" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="GND">
 <contactref element="Q1" pad="3"/>
@@ -1832,10 +1832,7 @@ design rules under a new name.</description>
 </polygon>
 <via x="3.81" y="25.4" extent="1-16" drill="0.35"/>
 <via x="21.59" y="25.4" extent="1-16" drill="0.35"/>
-<via x="39.37" y="39.37" extent="1-16" drill="0.35"/>
-<via x="39.37" y="39.37" extent="1-16" drill="0.35"/>
 <via x="21.59" y="25.4" extent="1-16" drill="0.35"/>
-<via x="39.37" y="39.37" extent="1-16" drill="0.35"/>
 <via x="54.61" y="19.05" extent="1-16" drill="0.35"/>
 <via x="44.45" y="29.21" extent="1-16" drill="0.35"/>
 <via x="3.81" y="25.4" extent="1-16" drill="0.35"/>
@@ -1846,19 +1843,18 @@ design rules under a new name.</description>
 <contactref element="GND" pad="P1"/>
 <contactref element="BATERIA" pad="P1"/>
 <contactref element="SP" pad="-"/>
-<wire x1="54.61" y1="13.97" x2="67.31" y2="19.05" width="0" layer="19" extent="1-1"/>
-<wire x1="54.61" y1="19.05" x2="67.31" y2="19.05" width="0" layer="19" extent="1-1"/>
-<wire x1="44.45" y1="29.21" x2="54.61" y2="19.05" width="0" layer="19" extent="1-1"/>
-<wire x1="34.671" y1="39.37" x2="44.45" y2="29.21" width="0" layer="19" extent="1-1"/>
-<wire x1="39.37" y1="39.37" x2="34.671" y2="39.37" width="0" layer="19" extent="1-1"/>
-<wire x1="40.64" y1="13.97" x2="54.61" y2="19.05" width="0" layer="19" extent="1-1"/>
+<wire x1="67.31" y1="7.62" x2="67.31" y2="19.05" width="0" layer="19" extent="1-1"/>
+<wire x1="64.77" y1="7.62" x2="67.31" y2="7.62" width="0" layer="19" extent="1-1"/>
+<wire x1="54.61" y1="13.97" x2="64.77" y2="7.62" width="0" layer="19" extent="1-1"/>
+<wire x1="54.61" y1="19.05" x2="54.61" y2="13.97" width="0" layer="19" extent="1-1"/>
+<wire x1="40.64" y1="13.97" x2="54.61" y2="13.97" width="0" layer="19" extent="1-1"/>
 <wire x1="36.83" y1="7.62" x2="40.64" y2="13.97" width="0" layer="19" extent="1-1"/>
 <wire x1="30.48" y1="20.32" x2="40.64" y2="13.97" width="0" layer="19" extent="1-1"/>
 <wire x1="21.59" y1="25.4" x2="30.48" y2="20.32" width="0" layer="19" extent="1-1"/>
 <wire x1="15.748" y1="19.431" x2="21.59" y2="25.4" width="0" layer="19" extent="1-1"/>
 <wire x1="3.81" y1="25.4" x2="15.748" y2="19.431" width="0" layer="19" extent="1-1"/>
-<wire x1="67.31" y1="7.62" x2="39.37" y2="39.37" width="0" layer="19" extent="1-1"/>
-<wire x1="64.77" y1="7.62" x2="67.31" y2="7.62" width="0" layer="19" extent="1-1"/>
+<wire x1="44.45" y1="29.21" x2="54.61" y2="19.05" width="0" layer="19" extent="1-1"/>
+<wire x1="36.83" y1="37.211" x2="44.45" y2="29.21" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SKIB1">
 <contactref element="Q1" pad="1"/>
@@ -1877,7 +1873,6 @@ design rules under a new name.</description>
 <contactref element="BATERIA" pad="P2"/>
 <contactref element="SKIB1" pad="P2"/>
 <contactref element="SKIB2" pad="P2"/>
-<wire x1="34.29" y1="7.62" x2="34.1962125" y2="7.7137875" width="1" layer="1"/>
 <wire x1="34.29" y1="7.62" x2="36.338" y2="5.572" width="1" layer="16"/>
 <wire x1="36.338" y1="5.572" x2="42.402" y2="5.572" width="1" layer="16"/>
 <wire x1="42.402" y1="5.572" x2="44.45" y2="7.62" width="1" layer="16"/>
