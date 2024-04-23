@@ -1057,20 +1057,17 @@ DIN A3, landscape with location and doc. field</description>
 </net>
 <net name="V_BATTERY" class="0">
 <segment>
-<wire x1="-43.18" y1="38.1" x2="10.16" y2="38.1" width="0.1524" layer="91"/>
-<wire x1="10.16" y1="38.1" x2="10.16" y2="71.12" width="0.1524" layer="91"/>
 <pinref part="U$7" gate="G$1" pin="1"/>
+<wire x1="10.16" y1="43.18" x2="10.16" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="10.16" y1="71.12" x2="27.94" y2="71.12" width="0.1524" layer="91"/>
-<wire x1="-34.29" y1="73.66" x2="-43.18" y2="73.66" width="0.1524" layer="91"/>
-<wire x1="-43.18" y1="73.66" x2="-43.18" y2="40.64" width="0.1524" layer="91"/>
 <label x="10.16" y="58.42" size="1.27" layer="95" rot="R90"/>
-<pinref part="U$10" gate="G$1" pin="PL3"/>
-<wire x1="-43.18" y1="40.64" x2="-43.18" y2="38.1" width="0.1524" layer="91"/>
-<wire x1="-34.29" y1="40.64" x2="-43.18" y2="40.64" width="0.1524" layer="91"/>
-<junction x="-43.18" y="40.64"/>
-<wire x1="-34.29" y1="68.58" x2="-34.29" y2="73.66" width="0.1524" layer="91"/>
-<pinref part="U$10" gate="G$1" pin="PR3"/>
-<wire x1="-34.29" y1="43.18" x2="-34.29" y2="40.64" width="0.1524" layer="91"/>
+<pinref part="U$10" gate="G$1" pin="PR1"/>
+<wire x1="-24.13" y1="43.18" x2="-15.24" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="-15.24" y1="43.18" x2="-15.24" y2="68.58" width="0.1524" layer="91"/>
+<pinref part="U$10" gate="G$1" pin="PL1"/>
+<wire x1="-15.24" y1="68.58" x2="-24.13" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="-15.24" y1="43.18" x2="10.16" y2="43.18" width="0.1524" layer="91"/>
+<junction x="-15.24" y="43.18"/>
 </segment>
 </net>
 <net name="N$19" class="0">
