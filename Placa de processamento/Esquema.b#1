@@ -108,23 +108,6 @@
 <circle x="-9.144" y="5.588" radius="1.79605" width="0.127" layer="21"/>
 <circle x="9.779" y="5.588" radius="1.79605" width="0.127" layer="21"/>
 </package>
-<package name="PRESSION_BUTTON_FOOTPRINT" urn="urn:adsk.eagle:footprint:43483813/3" library_version="37">
-<pad name="PL1" x="-7.803" y="-1.302" drill="1.1"/>
-<pad name="PL2" x="-4.803" y="-1.302" drill="1.1"/>
-<pad name="PL3" x="-1.803" y="-1.302" drill="1.1"/>
-<pad name="PR1" x="-7.803" y="1.198" drill="1.1"/>
-<pad name="PR2" x="-4.803" y="1.198" drill="1.1"/>
-<pad name="PR3" x="-1.803" y="1.198" drill="1.1"/>
-<text x="3.175" y="-0.508" size="0.6096" layer="21">Pression button</text>
-<wire x1="-11.303" y1="-3.921" x2="13.397" y2="-3.921" width="0.127" layer="21"/>
-<wire x1="13.397" y1="-3.921" x2="13.397" y2="4.079" width="0.127" layer="21"/>
-<wire x1="13.397" y1="4.079" x2="-11.303" y2="4.079" width="0.127" layer="21"/>
-<wire x1="-11.303" y1="4.079" x2="-11.303" y2="-3.921" width="0.127" layer="21"/>
-<hole x="-11.176" y="3.937" drill="2"/>
-<hole x="-11.176" y="-3.81" drill="2"/>
-<hole x="1.778" y="-3.81" drill="2"/>
-<hole x="1.778" y="3.937" drill="2"/>
-</package>
 <package name="E22-400T30D_FOOTPRINT" urn="urn:adsk.eagle:footprint:40965097/4" library_version="37">
 <wire x1="-17.78" y1="13.462" x2="-17.78" y2="-10.16" width="0.127" layer="21"/>
 <wire x1="22.733" y1="-2.159" x2="34.163" y2="-2.159" width="0.127" layer="21"/>
@@ -210,6 +193,19 @@
 <circle x="8.84" y="2.57" radius="1" width="0.127" layer="21"/>
 <text x="-3.66" y="-3.93" size="1.27" layer="21">MPU6050</text>
 </package>
+<package name="CHAVESS-5GL" urn="urn:adsk.eagle:footprint:45208056/4" library_version="43">
+<wire x1="-10.922" y1="-2.54" x2="10.16" y2="-2.54" width="0.2032" layer="21"/>
+<wire x1="10.16" y1="-2.54" x2="10.16" y2="3.81" width="0.2032" layer="21"/>
+<wire x1="10.16" y1="3.81" x2="-10.922" y2="3.81" width="0.2032" layer="21"/>
+<wire x1="-3.81" y1="2.54" x2="-3.81" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="-10.922" y1="3.81" x2="-10.922" y2="-2.54" width="0.2032" layer="21"/>
+<pad name="P$1" x="-9.271" y="-0.254" drill="1.524" diameter="1.778" shape="long" rot="R90"/>
+<pad name="P$2" x="-0.635" y="-0.254" drill="1.524" diameter="1.778" shape="long" rot="R90"/>
+<pad name="P$3" x="7.62" y="-0.254" drill="1.524" diameter="1.778" shape="long" rot="R90"/>
+<text x="-10.287" y="2.286" size="1.016" layer="21">COM</text>
+<text x="-1.397" y="2.413" size="1.016" layer="21">NO</text>
+<text x="6.858" y="2.413" size="1.016" layer="21">NC</text>
+</package>
 </packages>
 <packages3d>
 <package3d name="BMP390_FOOTPRINT" urn="urn:adsk.eagle:package:40965124/5" type="box" library_version="37">
@@ -217,17 +213,12 @@
 <packageinstance name="BMP390_FOOTPRINT"/>
 </packageinstances>
 </package3d>
-<package3d name="PRESSION_BUTTON_FOOTPRINT" urn="urn:adsk.eagle:package:43483815/3" type="box" library_version="37">
-<packageinstances>
-<packageinstance name="PRESSION_BUTTON_FOOTPRINT"/>
-</packageinstances>
-</package3d>
-<package3d name="E22-400T30D_FOOTPRINT" urn="urn:adsk.eagle:package:40965099/4" type="box" library_version="37">
+<package3d name="E22-400T30D_FOOTPRINT" urn="urn:adsk.eagle:package:40965099/5" type="model" library_version="43">
 <packageinstances>
 <packageinstance name="E22-400T30D_FOOTPRINT"/>
 </packageinstances>
 </package3d>
-<package3d name="GPS_MODULE_FOOTPRINT" urn="urn:adsk.eagle:package:39608400/5" type="box" library_version="37">
+<package3d name="GPS_MODULE_FOOTPRINT" urn="urn:adsk.eagle:package:39608400/7" type="model" library_version="43">
 <packageinstances>
 <packageinstance name="GPS_MODULE_FOOTPRINT"/>
 </packageinstances>
@@ -245,6 +236,11 @@
 <package3d name="MPU6050_FOOTPRINT" urn="urn:adsk.eagle:package:39029071/8" type="model" library_version="37">
 <packageinstances>
 <packageinstance name="MPU6050_FOOTPRINT"/>
+</packageinstances>
+</package3d>
+<package3d name="CHAVESS-5GL" urn="urn:adsk.eagle:package:45208058/6" type="model" library_version="43">
+<packageinstances>
+<packageinstance name="CHAVESS-5GL"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -1511,7 +1507,7 @@ type 0309, grid 12.5 mm</description>
 <class number="0" name="default" width="0" drill="0">
 </class>
 </classes>
-<designrules name="default *">
+<designrules name="padronizacao do eagle *">
 <description language="de">&lt;b&gt;EAGLE Design Rules&lt;/b&gt;
 &lt;p&gt;
 Die Standard-Design-Rules sind so gewählt, dass sie für 
@@ -1696,9 +1692,8 @@ design rules under a new name.</description>
 </autorouter>
 <elements>
 <element name="U$1" library="CRD" library_urn="urn:adsk.eagle:library:39051337" package="BMP390_FOOTPRINT" package3d_urn="urn:adsk.eagle:package:40965124/5" value="BMP390V1" x="43.561" y="19.812" smashed="yes"/>
-<element name="U$10" library="CRD" library_urn="urn:adsk.eagle:library:39051337" package="PRESSION_BUTTON_FOOTPRINT" package3d_urn="urn:adsk.eagle:package:43483815/3" value="PRESSION_BUTTON" x="9.62" y="16.51" smashed="yes" rot="R270"/>
-<element name="U$2" library="CRD" library_urn="urn:adsk.eagle:library:39051337" package="E22-400T30D_FOOTPRINT" package3d_urn="urn:adsk.eagle:package:40965099/4" value="E22-400T30D" x="121.92" y="73.66" smashed="yes" rot="R180"/>
-<element name="U$3" library="CRD" library_urn="urn:adsk.eagle:library:39051337" package="GPS_MODULE_FOOTPRINT" package3d_urn="urn:adsk.eagle:package:39608400/5" value="GPS_MODULE" x="71.22" y="26.67" smashed="yes" rot="MR0"/>
+<element name="U$2" library="CRD" library_urn="urn:adsk.eagle:library:39051337" package="E22-400T30D_FOOTPRINT" package3d_urn="urn:adsk.eagle:package:40965099/5" value="E22-400T30D" x="121.92" y="73.66" smashed="yes" rot="R180"/>
+<element name="U$3" library="CRD" library_urn="urn:adsk.eagle:library:39051337" package="GPS_MODULE_FOOTPRINT" package3d_urn="urn:adsk.eagle:package:39608400/7" value="GPS_MODULE" x="71.22" y="26.67" smashed="yes" rot="MR0"/>
 <element name="U$4" library="CRD" library_urn="urn:adsk.eagle:library:39051337" package="JST2.54X2P_FOOTPRINT" package3d_urn="urn:adsk.eagle:package:39191967/2" value="JST2.54X2P" x="25.4" y="25.4" smashed="yes" rot="R90"/>
 <element name="U$5" library="CRD" library_urn="urn:adsk.eagle:library:39051337" package="JST2.54X2P_FOOTPRINT" package3d_urn="urn:adsk.eagle:package:39191967/2" value="JST2.54X2P" x="17.78" y="12.7" smashed="yes" rot="R270"/>
 <element name="U$6" library="CRD" library_urn="urn:adsk.eagle:library:39051337" package="JST2.54X2P_FOOTPRINT" package3d_urn="urn:adsk.eagle:package:39191967/2" value="JST2.54X2P" x="17.78" y="25.4" smashed="yes" rot="R90"/>
@@ -1713,10 +1708,10 @@ design rules under a new name.</description>
 <attribute name="POPULARITY" value="10" x="71" y="60" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="74.937" y="57.46" size="1.778" layer="27" ratio="10" rot="R180"/>
 </element>
-<element name="LED1" library="led" library_urn="urn:adsk.eagle:library:259" package="LED5MM" package3d_urn="urn:adsk.eagle:package:15799/2" value="" x="6" y="64" smashed="yes" rot="R90">
-<attribute name="NAME" x="5.4666" y="67.175" size="1.27" layer="25" ratio="10" rot="R90"/>
-<attribute name="POPULARITY" value="93" x="6" y="64" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="7.8034" y="67.2004" size="1.27" layer="27" ratio="10" rot="R90"/>
+<element name="LED1" library="led" library_urn="urn:adsk.eagle:library:259" package="LED5MM" package3d_urn="urn:adsk.eagle:package:15799/2" value="" x="9.2" y="69" smashed="yes" rot="R90">
+<attribute name="NAME" x="8.6666" y="72.175" size="1.27" layer="25" ratio="10" rot="R90"/>
+<attribute name="POPULARITY" value="93" x="9.2" y="69" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="11.0034" y="72.2004" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
 <element name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" package="0309/12" package3d_urn="urn:adsk.eagle:package:23571/1" value="" x="12" y="57" smashed="yes" rot="R180">
 <attribute name="NAME" x="16.191" y="55.095" size="1.27" layer="25" ratio="10" rot="R180"/>
@@ -1724,6 +1719,7 @@ design rules under a new name.</description>
 <attribute name="SPICEPREFIX" value="R" x="12" y="57" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="15.175" y="57.6858" size="1.27" layer="27" ratio="10" rot="R180"/>
 </element>
+<element name="U$12" library="CRD" library_urn="urn:adsk.eagle:library:39051337" package="CHAVESS-5GL" package3d_urn="urn:adsk.eagle:package:45208058/6" value="CHAVE_SS-5GL" x="9" y="14" smashed="yes" rot="R90"/>
 </elements>
 <signals>
 <signal name="N$1">
@@ -1794,8 +1790,6 @@ design rules under a new name.</description>
 <wire x1="67" y1="15.518" x2="66" y2="14.518" width="1.5" layer="16"/>
 <wire x1="66" y1="11.77" x2="67.61" y2="10.16" width="1.5" layer="16"/>
 <wire x1="66" y1="14.518" x2="66" y2="11.77" width="1.5" layer="16"/>
-<contactref element="R1" pad="1"/>
-<wire x1="18.35" y1="57" x2="25" y2="57" width="1.5" layer="16"/>
 <via x="25" y="57" extent="1-16" drill="0.35"/>
 <wire x1="25.4" y1="34.671" x2="25.071" y2="35" width="1.5" layer="16"/>
 <wire x1="25.071" y1="35" x2="21" y2="35" width="1.5" layer="16"/>
@@ -1938,17 +1932,17 @@ design rules under a new name.</description>
 <wire x1="88.25" y1="67.96" x2="99.06" y2="57.15" width="1.5" layer="16"/>
 <wire x1="88.25" y1="67.96" x2="73.04" y2="67.96" width="1.5" layer="16"/>
 <wire x1="71.04" y1="69.96" x2="60.23" y2="69.96" width="1.5" layer="16"/>
-<wire x1="10.818" y1="21.313" x2="5.818" y2="21.313" width="1.5" layer="16"/>
 <wire x1="5.818" y1="21.313" x2="3.023" y2="24.108" width="1.5" layer="16"/>
 <wire x1="3.023" y1="33.733" x2="3.023" y2="24.108" width="1.5" layer="16"/>
 <wire x1="44.88" y1="54.61" x2="60.23" y2="69.96" width="1.5" layer="16"/>
-<contactref element="U$10" pad="PR2"/>
-<contactref element="U$10" pad="PL2"/>
-<wire x1="8.318" y1="21.313" x2="10.818" y2="21.313" width="1.5" layer="16"/>
 <contactref element="IC2" pad="IN"/>
 <wire x1="73.54" y1="63.81" x2="73.54" y2="67.46" width="1.5" layer="16"/>
 <wire x1="73.54" y1="67.46" x2="73.04" y2="67.96" width="1.5" layer="16"/>
 <wire x1="73.04" y1="67.96" x2="71.04" y2="69.96" width="1.5" layer="16"/>
+<contactref element="U$12" pad="P$1"/>
+<wire x1="9.254" y1="4.729" x2="5.4052" y2="8.5778" width="1.5" layer="16"/>
+<wire x1="5.4052" y1="8.5778" x2="5.4052" y2="21" width="1.5" layer="16"/>
+<wire x1="5.4052" y1="21" x2="5.818" y2="21.313" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$12">
 <contactref element="U$2" pad="VCC"/>
@@ -1963,12 +1957,12 @@ design rules under a new name.</description>
 </signal>
 <signal name="V_BATTERY">
 <contactref element="U$7" pad="1"/>
-<contactref element="U$10" pad="PR1"/>
-<contactref element="U$10" pad="PL1"/>
-<wire x1="8.318" y1="24.313" x2="10.818" y2="24.313" width="1.5" layer="16"/>
-<wire x1="10.818" y1="24.313" x2="12.687" y2="24.313" width="1.5" layer="16"/>
 <wire x1="23.03" y1="13.97" x2="25.4" y2="13.97" width="1.5" layer="16"/>
-<wire x1="12.687" y1="24.313" x2="23.03" y2="13.97" width="1.5" layer="16"/>
+<wire x1="12.687" y1="24.313" x2="13" y2="24" width="1.5" layer="16"/>
+<contactref element="U$12" pad="P$3"/>
+<wire x1="13" y1="24" x2="23.03" y2="13.97" width="1.5" layer="16"/>
+<wire x1="9.254" y1="21.62" x2="11.634" y2="24" width="1.5" layer="16"/>
+<wire x1="11.634" y1="24" x2="13" y2="24" width="1.5" layer="16"/>
 </signal>
 <signal name="N$19">
 <contactref element="U$6" pad="1"/>
@@ -2090,15 +2084,25 @@ design rules under a new name.</description>
 <vertex x="144" y="89"/>
 </polygon>
 <contactref element="LED1" pad="K"/>
-<wire x1="6" y1="65.27" x2="16.73" y2="65.27" width="1.5" layer="16"/>
-<wire x1="16.73" y1="65.27" x2="18" y2="64" width="1.5" layer="16"/>
+<wire x1="18" y1="64" x2="16.735" y2="62.735" width="1.5" layer="16"/>
+<wire x1="9.2" y1="70.27" x2="15.235" y2="64.235" width="1.5" layer="16"/>
 <via x="18" y="64" extent="1-16" drill="0.35"/>
+<wire x1="15.235" y1="64.235" x2="16.735" y2="62.735" width="1.5" layer="16"/>
+<wire x1="15.235" y1="64.235" x2="15.235" y2="64.235" width="1.5" layer="16"/>
 </signal>
 <signal name="N$4">
 <contactref element="R1" pad="2"/>
 <contactref element="LED1" pad="A"/>
-<wire x1="5.65" y1="57" x2="5.65" y2="62.38" width="1.5" layer="16"/>
-<wire x1="5.65" y1="62.38" x2="6" y2="62.73" width="1.5" layer="16"/>
+<wire x1="5.65" y1="57" x2="5.65" y2="64.18" width="1.5" layer="16"/>
+<wire x1="5.65" y1="64.18" x2="9.2" y2="67.73" width="1.5" layer="16"/>
+</signal>
+<signal name="N$17">
+<contactref element="R1" pad="1"/>
+<contactref element="U$11" pad="12"/>
+<wire x1="18.35" y1="57" x2="26.35" y2="65" width="1.5" layer="16"/>
+<wire x1="42" y1="65" x2="47" y2="60" width="1.5" layer="16"/>
+<wire x1="26.35" y1="65" x2="42" y2="65" width="1.5" layer="16"/>
+<wire x1="47" y1="60" x2="100.34" y2="35.13" width="0" layer="19" extent="16-16"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
