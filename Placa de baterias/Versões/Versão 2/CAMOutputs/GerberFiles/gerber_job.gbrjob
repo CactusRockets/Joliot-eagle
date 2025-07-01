@@ -1,7 +1,7 @@
 {
     "Header": {
         "Comment": "All values are metric (mm)",
-        "CreationDate": "2025-03-31T21:09:34Z",
+        "CreationDate": "2025-03-19T16:43:51Z",
         "GenerationSoftware": {
             "Application": "EAGLE",
             "Vendor": "Autodesk",
@@ -18,7 +18,7 @@
         "Owner": "Daniel Alencar <daniel.apcarvalho@discente.univasf.edu.br>",
         "Size": {
             "X": 35.56,
-            "Y": 26.928944
+            "Y": 40.64
         }
     }
 }
