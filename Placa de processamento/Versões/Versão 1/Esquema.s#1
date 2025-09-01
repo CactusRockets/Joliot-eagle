@@ -7651,11 +7651,6 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <wire x1="-68.58" y1="22.86" x2="-55.88" y2="22.86" width="0.1524" layer="91"/>
 <label x="-55.88" y="22.86" size="1.778" layer="95"/>
 </segment>
-<segment>
-<pinref part="U$2" gate="LORA_E22400T30D" pin="VCC"/>
-<wire x1="5.08" y1="-2.54" x2="0" y2="-2.54" width="0.1524" layer="91"/>
-<label x="5.08" y="-2.54" size="1.778" layer="95"/>
-</segment>
 </net>
 <net name="N$7" class="0">
 <segment>
@@ -7934,6 +7929,11 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <pinref part="IC1" gate="A" pin="OUT"/>
 <wire x1="-40.64" y1="22.86" x2="-30.48" y2="22.86" width="0.1524" layer="91"/>
 <label x="-30.48" y="22.86" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$2" gate="LORA_E22400T30D" pin="VCC"/>
+<wire x1="5.08" y1="-2.54" x2="0" y2="-2.54" width="0.1524" layer="91"/>
+<label x="5.08" y="-2.54" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
