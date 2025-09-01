@@ -72,6 +72,7 @@
 <layer number="98" name="Guide" color="6" fill="1" visible="no" active="no"/>
 </layers>
 <board>
+<fusionsync huburn="a.YnVzaW5lc3M6ZGlzY2VudGUxMTk4" projecturn="a.YnVzaW5lc3M6ZGlzY2VudGUxMTk4IzIwMjUwNjA1OTM2MDIzNjgx" f3durn="urn:adsk.wipprod:dm.lineage:45V5aqPuQ2GGgdGQ37I8dQ" pcbguid="" lastpulledtime="" lastsyncedchangeguid="" latestrevisionid="4b5b2b3b-7189-4421-896c-4500afd7f5c0" lastsyncedrevisionid="4b5b2b3b-7189-4421-896c-4500afd7f5c0" lastboardhashguid="20bec29b-99ac-0aa4-1725-7eb5a31c36d2" lastpushedtime="2025-08-31T20:15:55Z" linktopcb3d="true"/>
 <plain>
 <wire x1="-0.0144" y1="-0.0228" x2="145.1266" y2="-0.0228" width="0" layer="20"/>
 <wire x1="145.1266" y1="-0.0228" x2="145.1266" y2="79.8172" width="0" layer="20"/>
@@ -2563,19 +2564,19 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="U$1" library="CRD" library_urn="urn:adsk.eagle:library:39051337" package="BMP390_FOOTPRINT" package3d_urn="urn:adsk.eagle:package:40965124/5" value="BMP390V1" x="45.5466" y="26.7892" smashed="yes"/>
-<element name="U$2" library="CRD" library_urn="urn:adsk.eagle:library:39051337" package="E22-400T30D_FOOTPRINT" package3d_urn="urn:adsk.eagle:package:40965099/5" value="E22-400T30D" x="121.9056" y="63.6372" smashed="yes" rot="R180"/>
-<element name="U$3" library="CRD" library_urn="urn:adsk.eagle:library:39051337" package="GPS_MODULE_FOOTPRINT" package3d_urn="urn:adsk.eagle:package:39608400/7" value="GPS_MODULE" x="72.2056" y="26.6472" smashed="yes" rot="MR0"/>
+<element name="U$1" library="CRD" library_urn="urn:adsk.eagle:library:39051337" package="BMP390_FOOTPRINT" package3d_urn="urn:adsk.eagle:package:40965124/5" override_package3d_urn="urn:adsk.eagle:package:49374172/2" override_package_urn="urn:adsk.eagle:footprint:40965120/5" value="BMP390V1" x="45.5466" y="26.7892" smashed="yes"/>
+<element name="U$2" library="CRD" library_urn="urn:adsk.eagle:library:39051337" package="E22-400T30D_FOOTPRINT" package3d_urn="urn:adsk.eagle:package:40965099/5" override_package3d_urn="urn:adsk.eagle:package:49374740/2" override_package_urn="urn:adsk.eagle:footprint:40965097/4" value="E22-400T30D" x="121.9056" y="63.6372" smashed="yes" rot="R180"/>
+<element name="U$3" library="CRD" library_urn="urn:adsk.eagle:library:39051337" package="GPS_MODULE_FOOTPRINT" package3d_urn="urn:adsk.eagle:package:39608400/7" override_package3d_urn="urn:adsk.eagle:package:49380480/2" override_package_urn="urn:adsk.eagle:footprint:39608398/5" value="GPS_MODULE" x="72.2056" y="26.6472" smashed="yes" rot="MR0"/>
 <element name="U$4" library="CRD" library_urn="urn:adsk.eagle:library:39051337" package="JST2.54X2P_FOOTPRINT" package3d_urn="urn:adsk.eagle:package:39191967/2" value="JST2.54X2P" x="29.3856" y="19.3772" smashed="yes" rot="R90"/>
-<element name="U$5" library="CRD" library_urn="urn:adsk.eagle:library:39051337" package="JST2.54X2P_FOOTPRINT" package3d_urn="urn:adsk.eagle:package:39191967/2" value="JST2.54X2P" x="122.1856" y="7.7972" smashed="yes" rot="R180"/>
+<element name="U$5" library="CRD" library_urn="urn:adsk.eagle:library:39051337" package="JST2.54X2P_FOOTPRINT" package3d_urn="urn:adsk.eagle:package:39191967/2" override_package3d_urn="urn:adsk.eagle:package:49380478/2" override_package_urn="urn:adsk.eagle:footprint:39191965/1" value="JST2.54X2P" x="122.1856" y="7.7972" smashed="yes" rot="R180"/>
 <element name="U$6" library="CRD" library_urn="urn:adsk.eagle:library:39051337" package="JST2.54X2P_FOOTPRINT" package3d_urn="urn:adsk.eagle:package:39191967/2" value="JST2.54X2P" x="131.5856" y="7.7572" smashed="yes" rot="R180"/>
 <element name="U$7" library="CRD" library_urn="urn:adsk.eagle:library:39051337" package="JST2.54X2P_FOOTPRINT" package3d_urn="urn:adsk.eagle:package:39191967/2" value="JST2.54X2P" x="29.3856" y="10.8772" smashed="yes" rot="R90"/>
-<element name="U$8" library="CRD" library_urn="urn:adsk.eagle:library:39051337" package="MICROSD_SMALL_READER_FOOTPRINT" package3d_urn="urn:adsk.eagle:package:44017969/2" value="MICROSD_SMALL_READER" x="21.5756" y="51.4272" smashed="yes" rot="R180"/>
-<element name="U$9" library="CRD" library_urn="urn:adsk.eagle:library:39051337" package="MPU6050_FOOTPRINT" package3d_urn="urn:adsk.eagle:package:39029071/8" value="MPU6050V1" x="44.4356" y="48.2372" smashed="yes"/>
-<element name="U$11" library="ESP32-DEVKITV1" library_urn="urn:adsk.eagle:library:44018017" package="ESP32-DEVKITV1" package3d_urn="urn:adsk.eagle:package:44018021/1" value="ESP32DEVKITV1" x="105.3956" y="28.5672" smashed="yes" rot="R180">
+<element name="U$8" library="CRD" library_urn="urn:adsk.eagle:library:39051337" package="MICROSD_SMALL_READER_FOOTPRINT" package3d_urn="urn:adsk.eagle:package:44017969/2" override_package3d_urn="urn:adsk.eagle:package:49380474/2" override_package_urn="urn:adsk.eagle:footprint:44017967/2" value="MICROSD_SMALL_READER" x="21.5756" y="51.4272" smashed="yes" rot="R180"/>
+<element name="U$9" library="CRD" library_urn="urn:adsk.eagle:library:39051337" package="MPU6050_FOOTPRINT" package3d_urn="urn:adsk.eagle:package:39029071/8" override_package3d_urn="urn:adsk.eagle:package:49380476/2" override_package_urn="urn:adsk.eagle:footprint:39029067/6" value="MPU6050V1" x="44.4356" y="48.2372" smashed="yes"/>
+<element name="U$11" library="ESP32-DEVKITV1" library_urn="urn:adsk.eagle:library:44018017" package="ESP32-DEVKITV1" package3d_urn="urn:adsk.eagle:package:44018021/1" override_package3d_urn="urn:adsk.eagle:package:49374183/2" override_package_urn="urn:adsk.eagle:footprint:44018019/1" value="ESP32DEVKITV1" x="105.3956" y="28.5672" smashed="yes" rot="R180">
 <attribute name="NAME" x="129.5256" y="14.5972" size="1.27" layer="21" rot="R180"/>
 </element>
-<element name="IC2" library="v-reg" library_urn="urn:adsk.eagle:library:409" package="78XXL" package3d_urn="urn:adsk.eagle:package:30361/1" value="5V" x="20.2856" y="11.0772" smashed="yes">
+<element name="IC2" library="v-reg" library_urn="urn:adsk.eagle:library:409" package="78XXL" package3d_urn="urn:adsk.eagle:package:30361/1" override_package3d_urn="urn:adsk.eagle:package:49380501/2" override_package_urn="urn:adsk.eagle:footprint:30303/1" value="5V" x="20.2856" y="11.0772" smashed="yes">
 <attribute name="NAME" x="16.4756" y="16.1572" size="1.778" layer="25" ratio="10"/>
 <attribute name="POPULARITY" value="10" x="20.2856" y="11.0772" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="16.3486" y="13.6172" size="1.778" layer="27" ratio="10"/>
@@ -2585,20 +2586,20 @@ design rules under a new name.</description>
 <attribute name="POPULARITY" value="93" x="6.1856" y="41.9772" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="7.989" y="45.1776" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" package="0309/12" package3d_urn="urn:adsk.eagle:package:23571/1" value="220R" x="17.9856" y="39.9772" smashed="yes" rot="R180">
+<element name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" package="0309/12" package3d_urn="urn:adsk.eagle:package:23571/1" override_package3d_urn="urn:adsk.eagle:package:49380491/2" override_package_urn="urn:adsk.eagle:footprint:23074/1" value="220R" x="17.9856" y="39.9772" smashed="yes" rot="R180">
 <attribute name="NAME" x="22.1766" y="38.0722" size="1.27" layer="25" ratio="10" rot="R180"/>
 <attribute name="POPULARITY" value="8" x="17.9856" y="39.9772" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="17.9856" y="39.9772" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="21.1606" y="40.663" size="1.27" layer="27" ratio="10" rot="R180"/>
 </element>
 <element name="U$12" library="CRD" library_urn="urn:adsk.eagle:library:39051337" package="CHAVESS-5GL" package3d_urn="urn:adsk.eagle:package:45208058/14" value="CHAVE_SS-5GL" x="8.9856" y="16.9772" smashed="yes" rot="R90"/>
-<element name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" package="0309/12" package3d_urn="urn:adsk.eagle:package:23571/1" value="46R" x="125.9856" y="75.5772" smashed="yes">
+<element name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" package="0309/12" package3d_urn="urn:adsk.eagle:package:23571/1" override_package3d_urn="urn:adsk.eagle:package:49380494/2" override_package_urn="urn:adsk.eagle:footprint:23074/1" value="46R" x="125.9856" y="75.5772" smashed="yes">
 <attribute name="NAME" x="121.7946" y="77.4822" size="1.27" layer="25" ratio="10"/>
 <attribute name="POPULARITY" value="8" x="125.9856" y="75.5772" size="1.778" layer="27" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="125.9856" y="75.5772" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="122.8106" y="74.8914" size="1.27" layer="27" ratio="10"/>
 </element>
-<element name="SP1" library="buzzer" library_urn="urn:adsk.eagle:library:113" package="AL60P" package3d_urn="urn:adsk.eagle:package:5261/1" value="AL60P" x="97.5856" y="8.9772" smashed="yes">
+<element name="SP1" library="buzzer" library_urn="urn:adsk.eagle:library:113" package="AL60P" package3d_urn="urn:adsk.eagle:package:5261/1" override_package3d_urn="urn:adsk.eagle:package:49380484/2" override_package_urn="urn:adsk.eagle:footprint:5220/1" value="AL60P" x="97.5856" y="8.9772" smashed="yes">
 <attribute name="MF" value="" x="97.5856" y="8.9772" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="" x="97.5856" y="8.9772" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="95.0456" y="15.3272" size="1.27" layer="25" ratio="10"/>
@@ -2607,7 +2608,7 @@ design rules under a new name.</description>
 <attribute name="POPULARITY" value="2" x="97.5856" y="8.9772" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="93.6994" y="5.1672" size="1.27" layer="27" ratio="10"/>
 </element>
-<element name="IC1" library="v-reg" library_urn="urn:adsk.eagle:library:409" package="78XXL" package3d_urn="urn:adsk.eagle:package:30361/1" value="5V" x="13.9856" y="31.9772" smashed="yes" rot="R270">
+<element name="IC1" library="v-reg" library_urn="urn:adsk.eagle:library:409" package="78XXL" package3d_urn="urn:adsk.eagle:package:30361/1" override_package3d_urn="urn:adsk.eagle:package:49380487/2" override_package_urn="urn:adsk.eagle:footprint:30303/1" value="5V" x="13.9856" y="31.9772" smashed="yes" rot="R270">
 <attribute name="NAME" x="19.0656" y="35.7872" size="1.778" layer="25" ratio="10" rot="R270"/>
 <attribute name="POPULARITY" value="10" x="13.9856" y="31.9772" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="16.5256" y="35.9142" size="1.778" layer="27" ratio="10" rot="R270"/>
@@ -3034,6 +3035,11 @@ of those online libraries will not be understood (or retained)
 with this version.
 </note>
 <note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports Fusion synchronisation.
+This feature will not be available in this version and saving
+the document will break the link to the Fusion PCB feature.
+</note>
+<note version="8.3" severity="warning">
 Since Version 8.3, EAGLE supports URNs for individual library
 assets (packages, symbols, and devices). The URNs of those assets
 will not be understood (or retained) with this version.
@@ -3042,6 +3048,11 @@ will not be understood (or retained) with this version.
 Since Version 8.3, EAGLE supports the association of 3D packages
 with devices in libraries, schematics, and board files. Those 3D
 packages will not be understood (or retained) with this version.
+</note>
+<note version="9.4" severity="warning">
+Since Version 9.4, EAGLE supports the overriding of 3D packages
+in schematics and board files. Those overridden 3d packages
+will not be understood (or retained) with this version.
 </note>
 </compatibility>
 </eagle>
