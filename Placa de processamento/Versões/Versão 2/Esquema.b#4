@@ -2792,7 +2792,6 @@ design rules under a new name.</description>
 <wire x1="92.5096" y1="24.5012" x2="121.5096" y2="24.5012" width="1.5" layer="16"/>
 <wire x1="121.5096" y1="24.5012" x2="128.2656" y2="31.2572" width="1.5" layer="16"/>
 <wire x1="35.5211" y1="38.0527" x2="31.3856" y2="42.1882" width="1.5" layer="16"/>
-<wire x1="31.3856" y1="42.1882" x2="31.3856" y2="42.5062" width="1.5" layer="16"/>
 <wire x1="41.2242" y1="7.6392" x2="39.5776" y2="9.2858" width="1.5" layer="16"/>
 <wire x1="39.5776" y1="9.2858" x2="39.5776" y2="18.4072" width="1.5" layer="16"/>
 <wire x1="31.3856" y1="42.1882" x2="28.8146" y2="44.7592" width="1.5" layer="16"/>
@@ -3002,6 +3001,22 @@ design rules under a new name.</description>
 <mfgpreviewcolor name="coppercolor" color="0xFFFFBF00"/>
 <mfgpreviewcolor name="substratecolor" color="0xFF786E46"/>
 </mfgpreviewcolors>
+<errors>
+<approved hash="1,20,6632cececfee6712"/>
+<approved hash="1,20,24e13c21027c1abc"/>
+<approved hash="1,20,f275b3b5b239f3f9"/>
+<approved hash="1,20,a57c3dbc3e78a6b8"/>
+<approved hash="1,20,a3783bb83838a0f8"/>
+<approved hash="1,20,76a2de5eda86727a"/>
+<approved hash="1,20,67b8444449476abb"/>
+<approved hash="1,20,7ea2fe5efa867a7a"/>
+<approved hash="1,20,bd92c452c211bbd1"/>
+<approved hash="1,20,5e32cececfee5f12"/>
+<approved hash="1,20,673044cc40a56359"/>
+<approved hash="1,20,26773eb7383820f8"/>
+<approved hash="1,20,ff8cb44cb20ff9cf"/>
+<approved hash="1,20,2c7403b402312df1"/>
+</errors>
 </board>
 </drawing>
 <compatibility>
