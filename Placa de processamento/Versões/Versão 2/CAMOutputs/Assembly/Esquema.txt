@@ -1,0 +1,16 @@
+Partlist exported from C:/Users/Daniel Alencar/Documents/EAGLE/projects/Joliot-eagle/Placa de processamento/Versões/Versão 2/Esquema.sch at 9/4/2025 8:33 PM
+
+Qty Value                Device               Package                        Parts              Description                                            MF MPN OC_FARNELL OC_NEWARK POPULARITY SPICEPREFIX
+1   220R                 R-US_0309/12         0309/12                        R1                 RESISTOR, American symbol                                                          8          R          
+1   46R                  R-US_0309/12         0309/12                        R2                 RESISTOR, American symbol                                                          8          R          
+2   5V                   78XXL                78XXL                          IC1, IC2           VOLTAGE REGULATOR                                                                  10                    
+1   AL60P                AL60P                AL60P                          SP1                SPEAKER Source: Buerklin                                      unknown    unknown   2                     
+1   BMP390V1             BMP390V1             BMP390_FOOTPRINT               U$1                Sensor barométrico                                                                                       
+1   CHAVE_SS-5GL         CHAVE_SS-5GL         CHAVESS-5GL                    U$12                                                                                                                        
+1   E22-400T30D          E22-400T30D          E22-400T30D_FOOTPRINT          U$2                                                                                                                         
+1   ESP32DEVKITV1        ESP32DEVKITV1        ESP32-DEVKITV1                 U$11                                                                                                                        
+1   GPS_MODULE           GPS_MODULE           GPS_MODULE_FOOTPRINT           U$3                                                                                                                         
+4   JST2.54X2P           JST2.54X2P           JST2.54X2P_FOOTPRINT           U$4, U$5, U$6, U$7 Conector JST 2 pinos (2.54mm de distância entre pinos)                                                   
+1   MICROSD_SMALL_READER MICROSD_SMALL_READER MICROSD_SMALL_READER_FOOTPRINT U$8                                                                                                                         
+1   MPU6050V1            MPU6050V1            MPU6050_FOOTPRINT              U$9                Acelerômetro e Giroscópio                                                                                
+1   RED                  LED5MM               LED5MM                         LED1               LED                                                                                93                    
