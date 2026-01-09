@@ -4,14 +4,16 @@ This repository contains the design files for the avionics boards used in the **
 
 ### Description
 
-The avionics system is composed of two main boards:
+The avionics system is composed of the following boards:
 
 * **Processing Board**
 * **Actuation Board**
 * **Battery Board**
 
 The **Processing Board** is responsible for handling sensor data, data logging, and telemetry transmission.
+
 The **Actuation Board** contains the circuitry required for the correct activation of the *Skib* (the recovery deployment mechanism).
+
 The **Battery Board** distributes the battery voltages to connectors so they can be easily used by the other boards.
 
 *Note:* All board files can be opened using **Autodesk Eagle**.
