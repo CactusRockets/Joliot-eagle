@@ -40,4 +40,6 @@ Battery Board:
 
 The Processing Board includes a system-activation switch. Once the switch is pressed, the system powers on and begins reading all onboard modules. After each reading, the data is stored on a microSD card and transmitted via telemetry.
 
-When the Processing Board detects a fall event, it sends a signal to the Actuation Board, which then activates the *Skib* to deploy the recovery system.
+When the Processing Board detects a fall event, it sends a signal to the Actuation Board, which then activates the *Skib* to deploy the drogue recovery system.
+
+Na queda do foguete com apenas o paraquedas drogue liberado, no momento que o foguete tiver abaixo de 500m de altitude, o sistema deve detectar isso e ativar o outro skib que aciona o sistema de recuperação principal do foguete, liberando assim o paraquedas main. Fazendo assim que o foguete tenha um voo e recuperação estável até o chão.
